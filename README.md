@@ -4,3 +4,5 @@ Implemented and extended a Deep BSDE solver (E, Han & Jentzen, 2017–2018; exte
 neural network method for solving pricing PDEs via BSDEs — for multi-asset European basket calls in PyTorch. Added
 exact GBM stepping, correlated stocks, and delta extraction; benchmarked against Monte Carlo and Black
 Scholes.
+
+deep_bsde_GBM_solver.py - contains the main solver based on the Deep BSDE method
